@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    margin:1.4rem 1rem;
+}
+
+.logo{
+    width: 5rem;
+    height: 3rem;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.back-icon{
+    padding: 1rem 1.2rem;
+    background-color:rgba(128, 128, 128, 0.168);
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1{
+    margin-bottom: 1rem;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    position: relative;
+    margin-top: 6rem;
+    width: 17rem;
+    height: 17rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    z-index: 10;
+}
+
+.data{
+    width: 100%;
+    height: 100%;
+}
+
+.images{
+    width: 100%;
+    height: 50%;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+}
+
+.title{
+    font-weight: 900;
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+}
+
+.description{
+    display: none;
+    font-size: .8rem;
+    opacity: .8;
+    line-height: 1.2rem;
+}
+
+.checkbox{
+    width: 1rem;
+    height: 1rem;
+    margin-top: .7rem;
+}
+
+.submit-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.multiple{
+    font-weight: bolder;
+}
+
+.submit{
+    width: 13rem;
+    height: 2.3rem;
+    border-radius: 8px;
+    background-color: rgb(255, 7, 123);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    opacity: .4;
+    cursor: pointer;
+    margin: 1.2rem 0rem;
+}
+
+.return{
+    font-size: .8rem;
+    font-weight: 900;
+    opacity: .5;
+}
+
+.styleBox{
+    position: absolute;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    left: 0;
+    top: -24%;
+    width: 100%;
+    height: 100%;
+}
+
+.stylingBorder{
+    border:3px solid rgb(255, 0, 119);
+}
+
+.descptn{
+    display: block;
+}
+
+@media (max-width:768px) {
+    html{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:620px) {
+    html{
+        font-size: 13px;
+    }
+}
